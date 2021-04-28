@@ -54,7 +54,7 @@ app.get("/", (req, res) => {
 app.use("/user", userRoute);
 
 
-const port = process.env.PORT || 9000;
+const port = process.env.PORT || 9002;
 
 app.listen(port, () => {
     console.log("API up and running " + port);
